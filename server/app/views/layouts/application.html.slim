@@ -1,0 +1,11 @@
+doctype html
+html
+  head
+    title SayMie
+    meta name="keywords" content="SayMie"
+    meta name="author" content="whoknows"
+    = stylesheet_link_tag 'application'
+  body ng-app="SayMie"
+    == yield
+    / put js in bottom to load faster
+    = javascript_include_tag 'application'
