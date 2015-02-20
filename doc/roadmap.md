@@ -4,7 +4,12 @@
 
 - [x] Init the rails project
 - [x] Setup Grape Api
+
 - [ ] Front end
-- [ ] application.html.slim
+- [x] application.html.slim
 - [ ] angular
 - [ ] ui-router
+
+- [ ] Auth  # May not use devise?
+- [ ] Controller Auth
+- [ ] API Auth
