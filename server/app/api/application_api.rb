@@ -5,5 +5,5 @@ class ApplicationAPI < Grape::API
 
   # mount other api
   # TODO:cant mount. uninitialized constant MieApi::V1::Test (NameError)
-  mount MieApi::V1::Test
+  mount MieApi::V1::TestApi
 end

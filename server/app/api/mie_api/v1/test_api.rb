@@ -1,6 +1,8 @@
 module MieApi
   module V1
-    class Test < Grape::API
+    class TestApi < Grape::API
+
+      desc 'ping and u will get mie'
       get 'ping' do
         'mie'
       end
