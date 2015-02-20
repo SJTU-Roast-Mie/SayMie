@@ -7,7 +7,7 @@
 
 - [ ] Front end
 - [x] application.html.slim
-- [ ] angular
+- [x] angular
 - [ ] ui-router
 
 - [ ] Auth  # May not use devise?
